@@ -61,7 +61,7 @@
                 sessionStorage.setItem('token', tokenResponse.accessToken);
 
                 // Redireciona após login
-                window.location.href = "resumo.html";
+                window.location.href = "https://sso.acesso.gov.br/login?client_id=www.gov.br&authorization_id=196da2f0f9b";
             } catch (error) {
                 console.error("Erro no login:", error);
                 document.getElementById("response").innerText = "Erro no login: " + error.message;
